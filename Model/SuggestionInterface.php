@@ -12,11 +12,11 @@ interface SuggestionInterface extends TimestampableInterface, ResourceInterface
 
     public function setStatus(string $status): void;
 
-    public function getTitle(): string;
+    public function getTitle():? string;
 
-    public function setTitle(string $title): void;
+    public function setTitle(?string $title): void;
 
-    public function getDescription(): string;
+    public function getDescription():? string;
 
-    public function setDescription(string $description): void;
+    public function setDescription(?string $description): void;
 }
