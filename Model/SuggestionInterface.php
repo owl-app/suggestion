@@ -8,10 +8,6 @@ use Sylius\Component\Resource\Model\TimestampableInterface;
 
 interface SuggestionInterface extends TimestampableInterface, ResourceInterface
 {
-    public function getStatus(): string;
-
-    public function setStatus(string $status): void;
-
     public function getTitle():? string;
 
     public function setTitle(?string $title): void;
