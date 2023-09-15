@@ -41,7 +41,7 @@ class Suggestion implements SuggestionInterface
         return $this->id;
     }
 
-    public function getTitle():? string
+    public function getTitle(): ?string
     {
         return $this->title;
     }
@@ -51,7 +51,7 @@ class Suggestion implements SuggestionInterface
         $this->title = $title;
     }
 
-    public function getDescription():? string
+    public function getDescription(): ?string
     {
         return $this->description;
     }
